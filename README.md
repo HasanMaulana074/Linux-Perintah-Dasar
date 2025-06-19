@@ -36,5 +36,10 @@ Berikut perintah-perintah dasar linux dan fungsinya
 - rm = untuk menghapus file
   rmdir = untuk menghapus direktori kosong
   rm -rf = untuk menghapus direktori berserta isinya
+- sudo adduser nama_user = Perintah ini akan membuat user, direktori home /home/nama_user, dan meminta kamu mengisi password + data tambahan (bisa dikosongkan dengan tekan Enter).
+- sudo deluser nama_user = perintah ini akan menghapus user
+- sudo usermod -aG sudo nama_user = perintah untuk merubah user biasa menjadi sudo (admin)
+- sudo deluser --remove-home nama_user = User nama_user akan dihapus dari sistem. Folder /home/nama_user (yang berisi file, konfigurasi pribadi, dan dokumen user itu) juga akan dihapus secara permanen. Akun itu tidak bisa login lagi dan semua data pribadinya akan hilang.
+- 
   
   
